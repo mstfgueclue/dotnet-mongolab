@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.MongoLab.API", "DotNet.MongoLab.API\DotNet.MongoLab.API.csproj", "{7A89D2CB-524F-4424-99EA-76131D0CFD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.MongoLab.Data", "DotNet.MongoLab.Data\DotNet.MongoLab.Data.csproj", "{72F01073-7E52-4C4A-966D-C197883F3ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A89D2CB-524F-4424-99EA-76131D0CFD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A89D2CB-524F-4424-99EA-76131D0CFD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A89D2CB-524F-4424-99EA-76131D0CFD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A89D2CB-524F-4424-99EA-76131D0CFD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F01073-7E52-4C4A-966D-C197883F3ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F01073-7E52-4C4A-966D-C197883F3ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F01073-7E52-4C4A-966D-C197883F3ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F01073-7E52-4C4A-966D-C197883F3ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

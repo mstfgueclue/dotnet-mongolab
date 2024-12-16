@@ -1,0 +1,53 @@
+### Base URL
+@baseUrl=https://localhost:7220
+
+### Get all vehicles
+GET {{baseUrl}}/vehicles
+Content-Type: application/json
+
+###
+
+### Get a vehicle by ID
+@id=67605f70a6642fdfbea613fe
+
+GET {{baseUrl}}/vehicles/{{id}}
+Content-Type: application/json
+
+###
+
+### Add a new Sedan
+POST {{baseUrl}}/vehicles
+Content-Type: application/json
+{
+  "$__t": "Sedan",
+  "Manufacturer": "Tesla",
+  "Year": 2023,
+  "NumberOfDoors": 4,
+  "HasSunroof": true
+}
+
+###
+
+### Add a new SUV
+POST {{baseUrl}}/vehicles
+Content-Type: application/json
+{
+  "$__t": "SUV",
+  "Manufacturer": "Jeep",
+  "Year": 2022,
+  "NumberOfDoors": 4,
+  "IsFourWheelDrive": true
+}
+
+###
+
+### Add a new PickupTruck
+POST {{baseUrl}}/vehicles
+Content-Type: application/json
+{
+  "$__t": "PickupTruck",
+  "Manufacturer": "Ford",
+  "Year": 2021,
+  "PayloadCapacity": 1.5,
+  "HasExtendedCab": true
+}
